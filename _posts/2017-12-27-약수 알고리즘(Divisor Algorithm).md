@@ -5,7 +5,7 @@ category: algorithm
 description: 약수(divisor)를 구하는 다양하고 효율적인 방법을 알아보고 계속 업데이트 하자.
 ---
 
-약수(divisor)를 구하는 다양하고 효율적인 방법을 알아보자.
+> 약수(divisor)를 구하는 다양하고 효율적인 방법을 알아보자.
 
 <!--description-->
 
