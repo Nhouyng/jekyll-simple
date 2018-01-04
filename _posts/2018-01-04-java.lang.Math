@@ -1,0 +1,91 @@
+---
+layout: post
+title: java.lang.Math
+category: java(api)
+description: Math 클래스에서 자주사용하는 메소드 정리.
+---
+
+> Math class에서 자주사용하는 메소드를 간단하게 정리
+
+<!--description-->
+
+-----------------------
+
+### Math 클래스 메소드
+
+<table>
+	<thead>
+		<tr>
+			<th>Method</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Math.abs(n)</td>
+			<td>n의 절대값 반환</td>
+		</tr>
+		<tr>
+			<td>Math.sqrt(n)</td>
+			<td>n의 제곱근 반환(double)</td>
+		</tr>
+		<tr>
+			<td>Math.pow(n, pow)</td>
+			<td>n의 pow승한 값을 반환(double)</td>
+		</tr>
+        <tr>
+			<td>Math.round(n)</td>
+			<td>n의 반올림 값을 반환</td>
+		</tr>
+        <tr>
+			<td>Math.ceil(n)</td>
+			<td>n의 올림 값을 반환</td>
+		</tr>
+        <tr>
+			<td>Math.floor(n)</td>
+			<td>n의 버림 값을 반환</td>
+		</tr>
+        <tr>
+			<td>Math.random()</td>
+			<td>0.0 - 1.0사이 난수를 반환</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+-----------------------
+
+### Math.round(n)
+
+Math.round는 소수 첫번째 아래에서 반올림을 한다.
+```
+double n = 3.14;
+		
+System.out.println(Math.round(n));
+```
+<span class="olive">결과화면</span>
+```
+3
+```
+-----------------------
+첫번째 소수점이 아닌 원하는 소수점 아래에서 반올림을 할때 Math.round를 활용할 수 있다.
+```
+double n = 3.69;
+
+System.out.println(Math.round(n*10)/10.0);
+```
+<span class="olive">결과화면</span>
+```
+3.7
+```
+
+<span class="olive">3.69*10 = 36.9 반올림 = 37.0 /10.0 = 3.7</span>
+
+
+
+-----------------------
+
+### Comment
+
