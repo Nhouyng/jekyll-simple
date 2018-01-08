@@ -17,7 +17,7 @@ python2와 달리 python3에서 입력의 구조가 달라졌다. 아래 예저�
 ```
 n = input()
 ```
-하지만, python3에서 정수나 실수를 입력할때는 input()함수를 형변환 해야한다.<span class="olive">기본 입력 함수는 사용자의 입력을 문자열로 받기 때문이다.</span>
+하지만, python3에서 정수나 실수를 입력할때는 input()함수를 형변환 해야한다.<span class="olive"> 기본 입력 함수는 사용자의 입력을 문자열로 받기 때문이다.</span>
 ```
 n = int(input())
 f = float(intput())

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interface Comparable
-category: java[api]
+category: java
 description: Comparable 인터페이스의 간단한 정리
 ---
 
