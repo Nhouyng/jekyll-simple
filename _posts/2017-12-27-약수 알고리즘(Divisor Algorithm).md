@@ -26,7 +26,7 @@ description: 약수(divisor)를 구하는 다양하고 효율적인 방법을 �
 ### Code 1_1
 
 약수를 구하는 가장 기본적인 코드
-```
+```java
 public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);
@@ -44,7 +44,7 @@ public static void main(String[] args) {
 
 Code1_1은 1부터 N까지 탐색하여 약수를 판별한다. Code1_2에서는 N의 약수중에 최대값은 N이고 그 다음의 최대값이 될 수 있는 값은 아무리 크더라도 N/2라는 점을 사용하였다.
 
-```
+```java
 for (int i = 1; i <= N / 2; i++)
 	if (N % i == 0)
 		System.out.println(i);
@@ -60,7 +60,7 @@ System.out.println(N);
 
 약수의 개수를 구하는 기본적인 코드, Code1_2와 동일하다.
 
-```
+```java
 public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);
@@ -84,7 +84,7 @@ public static void main(String[] args) {
 ### Code 2_2
 
 1부터 n까지 정수 중에 약수의 개수가 가장많은 정수를 구할때는 Code2_1 기본형을 통해 간단하게 구현할 수 있다.
-```
+```java
 public class Main {
 
 	public final static int MAXNUM = 101;
@@ -116,7 +116,7 @@ public class Main {
 ### Code 2_3
 
 코드 2_2는 정수 n값이 커질수록 부담이된다. 1부터 n까지의 약수의 개수를 구하는 상황에서 배수를 응용하면 무의미하게 반복하는 과정을 줄일 수 있다.
-```
+```java
 public class Main {
 
 	public final static int MAXNUM = 101;
@@ -142,7 +142,7 @@ n, n/2, n/3 ···· n/n 만큼 반복을 수행하여 시간복잡도를 줄일
 
 ### 백준 2986 파스칼
 
-```
+```java
 import java.util.Scanner;
 
 public class Main {

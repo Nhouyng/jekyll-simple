@@ -14,7 +14,7 @@ description: Comparable 인터페이스의 간단한 정리
 ### 기본구조
 
 인터페이스 Comparable의 기본 구조
-```
+```java
 class Test implements Comparable<Test> {
 
 	@Override
@@ -32,7 +32,7 @@ class Test implements Comparable<Test> {
 ### 예제
 
 Person 클래스에서 정렬기준을 나이로 정하고, 오름차순으로 정렬하는 예제이다.
-```
+```java
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -81,7 +81,7 @@ class Person implements Comparable<Person> {
 ```
 
 <span class="olive">결과화면</span>
-```
+```java
 홍길동	15
 김삿갓	22
 전우치	37
@@ -90,7 +90,7 @@ class Person implements Comparable<Person> {
 -----------------------
 
 다음 예제는 나이를 기준으로 오름차순으로 정렬 후, 이름순서(사전순)으로 내림차순하는 예제이다.
-```
+```java
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -146,7 +146,7 @@ class Person implements Comparable<Person> {
 ```
 
 <span class="olive">결과화면</span>
-```
+```java
 홍길동	15
 이순신	15
 앙기모	15
@@ -164,7 +164,7 @@ class Person implements Comparable<Person> {
 
 [배열]
 - Arrays.sort(array)
-
+- 내림차순 정렬 불가
 
 [ArrayList]
 - Collections.sort(arrayList)
