@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [관람| 삼성 이노베이션 뮤지엄
+title: 삼성 이노베이션 뮤지엄
 category: hello world!
 description: 삼성 이노베이션 뮤지엄(SIM) 관람|사진|느낌
 ---
